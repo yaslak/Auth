@@ -1,2 +1,2 @@
 # Auth
-Quick Auth for laravel build on breeze
+Quick auth for laravel build on breeze.

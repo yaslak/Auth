@@ -1,0 +1,37 @@
+{
+    "name": "yaslak/auth",
+    "description": "Quick auth for laravel on breeze",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LY",
+            "email": "dnsdevelopper@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.0",
+        "laravel/breeze": "^1.10"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.6"
+    },
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yaslak\\Auth\\AuthServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Yaslak\\Auth\\": "src/"
+        }
+    }
+}
